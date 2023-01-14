@@ -8,6 +8,8 @@
     flex: 2;
     /* border: 1px solid blue; */
     padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logo-con .logo {
@@ -19,16 +21,20 @@
 }
 
 .header-links {
-    display: flex;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     flex: 1.5;
     /* border: 1px solid red; */
-    justify-content: space-between;
+    justify-content: center;
+    display: flex;
 }
 
 .header-links a.head-link {
+    display: inline-block;
+    padding-right: 50px;
     font-family: "Poppins", sans-serif;
-    max-width: 150px;
-    min-width: 150px;
+    font-weight: bold;
     height: 20px;
     color: white;
     text-decoration: none;
