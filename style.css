@@ -1,0 +1,122 @@
+.header-con {
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: #1A120B;
+}
+
+.logo-con{
+    flex: 2;
+    /* border: 1px solid blue; */
+    padding-left: 50px;
+}
+
+.logo-con .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    width: 200px;
+}
+
+.header-links {
+    display: flex;
+    flex: 1.5;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.header-links a.head-link {
+    font-family: "Poppins", sans-serif;
+    max-width: 150px;
+    min-width: 150px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid salmon; */
+}
+
+.header-links a.head-link:hover {
+    color: #D5CEA3
+}
+
+
+
+
+
+
+/* her0 section */
+
+
+
+
+
+
+.hero-image {
+    background-color: #291d12;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.welcome-con {
+    flex: 1;
+    color: white;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.welcome-message {
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+.welcome-description {
+    max-width: 400px;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+
+.welcome-con a.click-here {
+    background: #D5CEA3;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px 10px 20px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    color:#291d12;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+.placeholder-con {
+    flex: 1;
+    color: white;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color:#1A120B;
+    color:wheat;
+    text-align: center;
+    border: 1px solid white;
+    background-image: url(pikachu.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
