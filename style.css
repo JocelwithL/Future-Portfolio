@@ -1,13 +1,13 @@
 .header-con {
     display: flex;
     /* border: 1px solid black; */
-    background-color: #1A120B;
+    background-color: black;
 }
 
 .logo-con{
     flex: 2;
     /* border: 1px solid blue; */
-    padding-left: 50px;
+    padding-left: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -15,9 +15,18 @@
 .logo-con .logo {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    color: white;
     margin: 0;
     width: 200px;
+    
+}
+
+.logo-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-link:hover {
+    color: wheat;s
 }
 
 .header-links {
@@ -50,7 +59,7 @@
 
 
 
-/* her0 section */
+/* her0 section ------------------------------------ */
 
 
 
@@ -59,19 +68,24 @@
 
 .hero-image {
     background-color: #291d12;
+    background-image: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
     height: 500px;
     /* border: 1px solid red; */
     display: flex;
 }
 
 .welcome-con {
-    flex: 1;
+    width: 50%;
+    flex-shrink: 0;
     color: white;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
 }
 
@@ -104,13 +118,19 @@
     
 }
 
+a.click-here:hover {
+    background-color: aliceblue;
+}
+
 .placeholder-con {
-    flex: 1;
+    flex-shrink: 0;
+    width: 50%;
     color: white;
     /* border: 1px solid white; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 100px;
 }
 
 .image-placeholder {
@@ -125,4 +145,73 @@
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: bottom;
+    transition: .4s;
+}
+
+.image-placeholder:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/* projects section ---------------------------------------*/
+
+
+
+
+
+
+
+.projects-con {
+    /* border: 1px solid red; */
+    height: 400px;
+}
+
+.project-title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid blue; */
+}
+
+.project-items {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 0px 100px 0px 100px;
+}
+
+.item-con {
+    /* border: 1px solid peru; */
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink:0;
+
+}
+
+.project {
+    /* border: 1px solid salmon; */
+    height: 150px;
+    width: 150px;
+    border-radius:20px;
+    background-color: black;
+}
+
+.project-name{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+}
+
+.item-con p {
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    line-height: 17px;
 }
