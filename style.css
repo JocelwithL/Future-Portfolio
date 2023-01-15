@@ -1,3 +1,7 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 .header-con {
     display: flex;
     /* border: 1px solid black; */
@@ -34,9 +38,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
     flex: 1.5;
-    /* border: 1px solid red; */
     justify-content: center;
     display: flex;
+    /* border: 1px solid red; */
 }
 
 .header-links a.head-link {
@@ -71,7 +75,7 @@
     background-image: url(images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100% 100%;
+    background-size:100%;
     height: 500px;
     /* border: 1px solid red; */
     display: flex;
@@ -105,7 +109,7 @@
 }
 
 .welcome-con a.click-here {
-    background: #D5CEA3;
+    background: wheat;
     font-family: "Poppins", sans-serif;
     padding: 10px 20px 10px 20px;
     width: 160px;
@@ -215,3 +219,107 @@ a.click-here:hover {
     text-align: center;
     line-height: 17px;
 }
+
+/* Skills section -------------------------- */
+
+.skills-main-con {
+    height: 150px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.skills-icon {
+    /* border: 1px solid red; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .icon-logo {
+    /* border: 1px solid red; */
+    width: 50px;
+    height: auto;
+    transition: .2s;
+    
+}
+
+.icon-logo:hover {
+    transform: scale(1.2);
+}
+
+.skills-icon h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: gray;
+    margin: 10px auto 0px auto;
+
+}
+
+/* contact section -------------------- */
+
+.contact-main-con {
+    height: 400px;
+    background-color: white;
+    background-position: center;
+    background-image: url(images/contact-us-bg.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 1000px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.find-me {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.social-media-icon {
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: wheat;
+    color: black;
+    width: 100px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
